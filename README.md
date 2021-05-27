@@ -22,6 +22,7 @@ mv vg SeqToGraphAlignment/
 ```sh
 git clone https://github.com/lh3/minigraph
 cd minigraph && make
+cd ..
 cp minigraph/minigraph SeqToGraphAlignment/
 ```
 
