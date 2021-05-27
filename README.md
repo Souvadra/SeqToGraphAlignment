@@ -24,7 +24,9 @@ cp minigraph/minigraph SeqToGraphAlignment/`
 python3 code/synthetic_MT.py -infile data/MT-human.fa -outdir synDNA/ -num_files 10 -outfile MT-syn`
 
 5. Build the reference grpah based on the input and the synthetically generated FASTA files using `minigraph`
-`./minigraph -xggs -l10k data/MT.gfa data/MT-chimp.fa data/MT-orangA.fa data/MT-human.fa synDNA/MT-syn0.fa synDNA/MT-syn1.fa synDNA/MT-syn2.fa synDNA/MT-syn3.fa synDNA/MT-syn4.fa synDNA/MT-syn5.fa synDNA/MT-syn6.fa synDNA/MT-syn7.fa synDNA/MT-syn8.fa synDNA/MT-syn9.fa > MT-graph.gfa`
+```sh
+./minigraph -xggs -l10k data/MT.gfa data/MT-chimp.fa data/MT-orangA.fa data/MT-human.fa synDNA/MT-syn0.fa synDNA/MT-syn1.fa synDNA/MT-syn2.fa synDNA/MT-syn3.fa synDNA/MT-syn4.fa synDNA/MT-syn5.fa synDNA/MT-syn6.fa synDNA/MT-syn7.fa synDNA/MT-syn8.fa synDNA/MT-syn9.fa > MT-graph.gfa
+```
 
 6. Simulate reads from the constructed reference graph using `vg-toolkit` (we have chosen to construct ten reads each 500 nucleotide long for this example)
 `./vg view MT-graph.gfa > MT-graph.vg
