@@ -1,5 +1,5 @@
 # SeqToGraphAlignment
-Final project for DS202. 
+This repository contains all the necessary codes, data and instructions to show the advantage of using graph as a refernce genome over string based genomes. This is part of my DS202-2020 final project and contains instruction to replicate the experiment I performed to prove the above-mentioned hypothesis in my final report. I have implemented this on a Debian GNU/Linux 10 (buster) on Windows 10 x86_64 Operating System.
 
 ## Pre-requisites
 - [vg toolkit](https://github.com/vgteam/vg)
