@@ -5,13 +5,13 @@ Final project for DS202.
 - [vg toolkit](https://github.com/vgteam/vg)
 - [minigraph](https://github.com/lh3/minigraph)
 
-## Replicate the results
+## Steps to replicate the result
 1. Clone the SeqToGraphAlignment repository by typing
 ```sh
 git clone https://github.com/Souvadra/SeqToGraphAlignment.git
 ```
 
-2. Download the `vg` toolkit and relocate the executable for ease of use
+2. Download the `vg-toolkit` and relocate the executable for ease of use
 ```sh
 wget https://github.com/vgteam/vg/releases/download/v1.33.0/vg
 chmod +x vg
@@ -57,3 +57,5 @@ do
 ./minigraph MT-graph.gfa sim_reads/sim_read"$i".fa > seq2graph/out_graph"$i".gaf
 done
 ```
+
+9. The `.paf` and `.gaf` files contain enough information to get to know about how the alignment algorithm performed in both the seq-to-graph and seq-to-seq alignment. In my report, I have shown the the `number of residue matches` which can be known from the `10-th` column of both the `.paf` and `.gaf` files. For more information regarging these file format, the reader can refer to [GAF](https://github.com/lh3/gfatools/blob/master/doc/rGFA.md#the-graph-alignment-format-gaf) and [PAF](https://github.com/lh3/miniasm/blob/master/PAF.md).
