@@ -58,4 +58,4 @@ do
 done
 ```
 
-9. The `.paf` and `.gaf` files contain enough information to get to know about how the alignment algorithm performed in both the seq-to-graph and seq-to-seq alignment. In my report, I have shown the the `number of residue matches` which can be known from the `10-th` column of both the `.paf` and `.gaf` files. For more information regarging these file format, the reader can refer to [GAF](https://github.com/lh3/gfatools/blob/master/doc/rGFA.md#the-graph-alignment-format-gaf) and [PAF](https://github.com/lh3/miniasm/blob/master/PAF.md).
+9. The `.paf` and `.gaf` files contain enough information to get to know about how the alignment algorithm performed in both the seq-to-graph and seq-to-seq alignment. In my report, I have shown the the `number of residue matches` which can be known from the `10-th` column of both the `.paf` and `.gaf` files. For more information regarging these file formats, the reader can refer to [GAF](https://github.com/lh3/gfatools/blob/master/doc/rGFA.md#the-graph-alignment-format-gaf) and [PAF](https://github.com/lh3/miniasm/blob/master/PAF.md).
