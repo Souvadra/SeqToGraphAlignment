@@ -5,7 +5,7 @@ Final project for DS202.
 - [vg toolkit](https://github.com/vgteam/vg)
 - [minigraph](https://github.com/lh3/minigraph)
 
-## Steps to replicate the result
+## Steps to replicate the experimental result
 1. Clone the SeqToGraphAlignment repository by typing
 ```sh
 git clone https://github.com/Souvadra/SeqToGraphAlignment.git
