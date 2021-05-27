@@ -28,6 +28,7 @@ cp minigraph/minigraph SeqToGraphAlignment/
 
 4. Make synthetic FASTA files, based on any of the input FASTA files (`MT-human.fa` was chosen in this case)
 ```sh
+cd SeqToGraphAlignment/
 mkdir synDNA
 python3 code/synthetic_MT.py -infile data/MT-human.fa -outdir synDNA/ -num_files 10 -outfile MT-syn
 ```
