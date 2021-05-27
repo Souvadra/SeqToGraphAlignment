@@ -47,6 +47,7 @@ python3 code/synthetic_MT.py -infile data/MT-human.fa -outdir synDNA/ -num_files
 
 7. Create separate FASTA files from the simulated reads (so that we can directly use those for alignment using default functionalities of `minigraph`
 ```sh
+mkdir sim_reads
 python3 code/simulated_read_to_fasta.py -infile read.sim.txt -outdir sim_reads/ -outfile sim_read
 ```
 
